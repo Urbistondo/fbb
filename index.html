@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Checklist – Pump Condition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <div class="app__title-group">
+          <div class="app__badge">Cycle Planner</div>
+          <h1 class="app__title">Gym Checklist – Pump Condition (4x Scaled, v2)</h1>
+          <p class="app__subtitle">
+            Built for a four-day pump-conditioning split with progressive overload,
+            intelligent deloading, and conditioning support.
+          </p>
+        </div>
+        <div class="app__meta">
+          <div class="meta-card">
+            <span class="meta-card__label">Current Week</span>
+            <span class="meta-card__value">Week 6 · Feb 19 – Feb 25</span>
+            <span class="meta-card__hint">Next deload in 2 weeks</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-card__label">Focus</span>
+            <span class="meta-card__value">Upper push density &amp; lower hinge power</span>
+            <span class="meta-card__hint">Maintain conditioning and core integrity</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-card__label">Completed Sessions</span>
+            <span class="meta-card__value js-session-count">0 / 4</span>
+            <span class="meta-card__hint">Progress updates as you check off work</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="layout__secondary">
+          <section class="panel">
+            <h2 class="panel__title">Weekly Checklist</h2>
+            <ul class="checklist">
+              <li class="checklist__item">
+                <label>
+                  <input type="checkbox" data-tracker="weekly:mobility" />
+                  <span>Complete 2 mobility / stability primers</span>
+                </label>
+              </li>
+              <li class="checklist__item">
+                <label>
+                  <input type="checkbox" data-tracker="weekly:conditioning" />
+                  <span>Hit all conditioning progression targets</span>
+                </label>
+              </li>
+              <li class="checklist__item">
+                <label>
+                  <input type="checkbox" data-tracker="weekly:nutrition" />
+                  <span>Log nutrition 5 days &amp; maintain +250 kcal surplus</span>
+                </label>
+              </li>
+              <li class="checklist__item">
+                <label>
+                  <input type="checkbox" data-tracker="weekly:sleep" />
+                  <span>Average 7+ hours of sleep with morning HRV check</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel__title">Weekly Progression</h2>
+            <div class="table">
+              <div class="table__row table__row--header">
+                <span>Variation</span>
+                <span>Last Week</span>
+                <span>This Week</span>
+                <span>Notes</span>
+              </div>
+              <div class="table__row">
+                <span>Barbell Bench Press</span>
+                <span>4×6 @ 185 lb</span>
+                <span>4×6 @ 190 lb</span>
+                <span>Tempo 21X1, add drop set if RIR &gt; 1</span>
+              </div>
+              <div class="table__row">
+                <span>Trap Bar Deadlift</span>
+                <span>5×3 @ 335 lb</span>
+                <span>5×3 @ 345 lb</span>
+                <span>Stay crisp, double overhand first 2 sets</span>
+              </div>
+              <div class="table__row">
+                <span>Landmine Press</span>
+                <span>3×10 @ 70 lb</span>
+                <span>3×12 @ 70 lb</span>
+                <span>Superset with face pulls, RIR 1</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel__title">Conditioning Progression</h2>
+            <div class="progression">
+              <article class="progression__card">
+                <h3>Assault Bike</h3>
+                <p>EMOM 10: 12 cals (men) · 9 cals (women)</p>
+                <p class="progression__hint">Add +1 cal every other week if HR &lt; 165 bpm</p>
+              </article>
+              <article class="progression__card">
+                <h3>Incline Treadmill</h3>
+                <p>15 min @ 9% grade, 3.2 mph</p>
+                <p class="progression__hint">Increase grade by 1% when RPE &lt; 7</p>
+              </article>
+              <article class="progression__card">
+                <h3>Core Finisher</h3>
+                <p>Farmer Carry Ladder · 3 rounds</p>
+                <p class="progression__hint">80 ft, add 10 lb per handle when unbroken</p>
+              </article>
+            </div>
+          </section>
+        </section>
+
+        <section class="layout__primary">
+          <div class="day-nav">
+            <button class="day-nav__btn is-active" data-day="0">Day 1 · Upper Push</button>
+            <button class="day-nav__btn" data-day="1">Day 2 · Upper Pull</button>
+            <button class="day-nav__btn" data-day="2">Day 3 · Lower (Squat)</button>
+            <button class="day-nav__btn" data-day="3">Day 4 · Lower (Hinge)</button>
+          </div>
+
+          <section class="panel panel--day">
+            <header class="day-header">
+              <div>
+                <h2 class="day-header__title js-day-title">Day 1 – Upper Push (Bench · Back · Traps)</h2>
+                <p class="day-header__meta js-day-focus">Bench-centric push day with heavy back pairing and trap finisher.</p>
+              </div>
+              <div class="day-progress">
+                <span class="day-progress__label">Completion</span>
+                <div class="day-progress__bar">
+                  <div class="day-progress__fill js-day-progress"></div>
+                </div>
+                <span class="day-progress__value js-day-progress-value">0%</span>
+              </div>
+            </header>
+            <div class="day-content js-day-content"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
