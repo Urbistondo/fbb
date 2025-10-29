@@ -1,0 +1,264 @@
+{
+  "title": "Gym Checklist — Pump Condition 4× (Scaled, v2)",
+  "subtitle": "Tempo first · Top sets ≤ RPE 8–8.5 · Accessories 1–2 RIR · Conditioning RPE 6–7",
+  "note": "RFESS = Rear-Foot-Elevated Split Squat (Bulgarian Split Squat).",
+  "weeklyProgression": [
+    {
+      "week": "W1",
+      "description": "50–60% of written conditioning volume; 1:1 work:rest; cap 8–12 min"
+    },
+    {
+      "week": "W2",
+      "description": "60–70% volume; keep 1:1 or :45/:30 on short intervals"
+    },
+    {
+      "week": "W3",
+      "description": "70–80% volume; move toward 2:1 density; ≤ RPE 7.5"
+    },
+    {
+      "week": "W4",
+      "description": "80–90% volume; same RPE — earn it with steadier pacing"
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "title": "Day 1 — Upper Push (Bench + Back + Triceps)",
+      "conditioningNote": "Upper Push/Pull: cap 10–12 min (W1) @ RPE 6–7; 50–60% rounds",
+      "exercises": [
+        {
+          "id": "1-1",
+          "number": "1",
+          "name": "Barbell Bench Press",
+          "sets": "3×6 @ RPE 7; tempo 21X1; optional back-off 1×AMRAP clean reps",
+          "rest": "Set: 2–3 min\nEx: 3 min",
+          "notes": ""
+        }
+      ],
+      "supersets": [
+        {
+          "label": "Superset A1–A2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "1-a1",
+              "number": "A1",
+              "name": "Incline DB 1¼ Bench",
+              "sets": "3×6–8 @21X1, 2 RIR",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "1-a2",
+              "number": "A2",
+              "name": "Strict Pull-ups (band as needed)",
+              "sets": "3×6–10 @20X0, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "label": "Superset B1–B2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "1-b1",
+              "number": "B1",
+              "name": "Lateral Raises",
+              "sets": "3×12–15 (2–3s ecc), 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "1-b2",
+              "number": "B2",
+              "name": "Dips or Skull Crushers",
+              "sets": "3×10–12, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Day 2 — Lower (Squat Emphasis + Single-Leg + Core)",
+      "conditioningNote": "Lower Interval Strength: W1 50–60% rounds; 1:1 work:rest; prefer row/ski/bike",
+      "exercises": [
+        {
+          "id": "2-1",
+          "number": "1",
+          "name": "Back Squat or 1¼ Front Squat (alternate weekly)",
+          "sets": "3×6 @ RPE 7–8; controlled ecc",
+          "rest": "Set: 2–3 min\nEx: 2 min",
+          "notes": ""
+        }
+      ],
+      "supersets": [
+        {
+          "label": "Superset A1–A2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "2-a1",
+              "number": "A1",
+              "name": "DB/B-stance RDL",
+              "sets": "3×8–10 @21X1, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "2-a2",
+              "number": "A2",
+              "name": "RFESS (Bulgarian Split Squat)",
+              "sets": "3×8–10/leg @31X1, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "exercises2": [
+        {
+          "id": "2-2",
+          "number": "2",
+          "name": "Core (anti-rotation/plank variants)",
+          "sets": "3×45–60s",
+          "rest": "Set: 60s",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Day 3 — Upper Pull + Filly Press",
+      "conditioningNote": "Shoulder/Core: 8–10 min cap (W1) or 50–60% rounds; smooth breathing",
+      "exercises": [
+        {
+          "id": "3-1",
+          "number": "1",
+          "name": "Filly Press (sub for Barbell Military Press)",
+          "sets": "3×6 @ RPE 7 + 1×AMRAP (same load)",
+          "rest": "Set: 2 min\nEx: 2 min",
+          "notes": ""
+        }
+      ],
+      "supersets": [
+        {
+          "label": "Superset A1–A2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "3-a1",
+              "number": "A1",
+              "name": "Incline DB Bench",
+              "sets": "3×8–10 (tempo 22X1), 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "3-a2",
+              "number": "A2",
+              "name": "Strict Pull-ups",
+              "sets": "3×8–12 @20X0, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "label": "Superset B1–B2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "3-b1",
+              "number": "B1",
+              "name": "Chest-Supported DB Row",
+              "sets": "3×10–12 @20X1",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "3-b2",
+              "number": "B2",
+              "name": "Biceps Curl (EZ/DB)",
+              "sets": "3×10–12, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Day 4 — Lower (Hinge/Glute Emphasis)",
+      "conditioningNote": "Fatigued Couplet: 8–10 min cap (W1) @ RPE 6–7; perfect technique",
+      "exercises": [
+        {
+          "id": "4-1",
+          "number": "1",
+          "name": "Romanian Deadlift or Conventional Deadlift (alternate weekly)",
+          "sets": "3×6 @ RPE 7–8, tempo 20X1",
+          "rest": "Set: 2–3 min\nEx: 2 min",
+          "notes": ""
+        }
+      ],
+      "supersets": [
+        {
+          "label": "Superset A1–A2 — Rest between paired sets: 60–90s",
+          "exercises": [
+            {
+              "id": "4-a1",
+              "number": "A1",
+              "name": "Hip Thrust or 45° Hip Extension",
+              "sets": "3×8–12, 1–2 RIR",
+              "rest": "—",
+              "notes": ""
+            },
+            {
+              "id": "4-a2",
+              "number": "A2",
+              "name": "Bulgarian Split Squat (RFESS)",
+              "sets": "3×8–10/leg @31X1",
+              "rest": "—",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "exercises2": [
+        {
+          "id": "4-2",
+          "number": "2",
+          "name": "Ham/Glute Accessory",
+          "sets": "2×12–15 (Cable Pull-through or Back Extension)",
+          "rest": "Set: 60–90s",
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "conditioningProgression": [
+    {
+      "week": "W1",
+      "volumeDensity": "50–60% volume; 1:1 work:rest",
+      "notes": "Cap 8–12 min; RPE 6–7; repeatable paces"
+    },
+    {
+      "week": "W2",
+      "volumeDensity": "60–70% volume; 1:1 or :45/:30",
+      "notes": "Small pace bump only if breathing/form clean"
+    },
+    {
+      "week": "W3",
+      "volumeDensity": "70–80% volume; toward 2:1",
+      "notes": "RPE ≤7.5; consistency over speed"
+    },
+    {
+      "week": "W4",
+      "volumeDensity": "80–90% volume",
+      "notes": "Same RPE; steadier pacing (±3%)"
+    }
+  ],
+  "priorityBumps": "Lats +2×12–15 chest-supported rows · Side Delts +2×15 laterals @30X0 · Glutes +2×8–10 RDL @21X1",
+  "recovery": "Walk 5–10 min post-finisher · box/90-90 breathing · 1.8–2.2 g/kg protein · 15–30 g carbs pre-conditioning · 7.5–9 h sleep",
+  "footer": "Tip: If form or breathing breaks, cut 1 round—never your technique."
+}
